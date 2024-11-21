@@ -6,6 +6,7 @@ from threading import Thread
 from queue import Queue
 import requests
 import bs4
+import lxml
 
 # 日志队列
 log_queue = Queue()
